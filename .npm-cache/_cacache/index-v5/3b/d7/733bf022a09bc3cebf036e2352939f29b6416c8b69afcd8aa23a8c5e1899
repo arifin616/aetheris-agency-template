@@ -1,0 +1,2 @@
+
+aee1363899a92cba9cc8f77312eb117e19084221	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types%2freact-dom","integrity":null,"time":1769928581923,"size":"0","metadata":{"time":1769928581922,"url":"http://registry.npmjs.org/@types%2freact-dom","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:42 GMT","location":"https://registry.npmjs.org/@types%2Freact-dom","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

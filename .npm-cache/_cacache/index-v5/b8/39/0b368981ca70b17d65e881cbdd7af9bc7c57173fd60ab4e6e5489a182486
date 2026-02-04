@@ -1,0 +1,2 @@
+
+a76852788efa086637981090211792fc89855e63	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/merge2","integrity":null,"time":1769928612905,"size":"0","metadata":{"time":1769928612904,"url":"http://registry.npmjs.org/merge2","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:13 GMT","location":"https://registry.npmjs.org/merge2","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+d73eb08ed428d4517243db0e14e1eec9d42c74af	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/use-intl","integrity":null,"time":1769928591999,"size":"0","metadata":{"time":1769928591999,"url":"http://registry.npmjs.org/use-intl","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:52 GMT","location":"https://registry.npmjs.org/use-intl","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

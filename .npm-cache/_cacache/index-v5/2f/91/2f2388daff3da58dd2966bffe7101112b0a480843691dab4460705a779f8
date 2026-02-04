@@ -1,0 +1,2 @@
+
+e293d8a44d453948b469e36f131e0709b3c8ac14	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/restore-cursor","integrity":null,"time":1769928632456,"size":"0","metadata":{"time":1769928632456,"url":"http://registry.npmjs.org/restore-cursor","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:32 GMT","location":"https://registry.npmjs.org/restore-cursor","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

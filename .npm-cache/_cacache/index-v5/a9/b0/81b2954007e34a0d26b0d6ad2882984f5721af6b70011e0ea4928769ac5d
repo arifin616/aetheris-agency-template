@@ -1,0 +1,2 @@
+
+0cff88771dff92897685f57e809ba496bf48c4d1	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fast-glob","integrity":null,"time":1769928604148,"size":"0","metadata":{"time":1769928604148,"url":"http://registry.npmjs.org/fast-glob","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:04 GMT","location":"https://registry.npmjs.org/fast-glob","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

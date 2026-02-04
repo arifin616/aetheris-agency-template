@@ -1,0 +1,2 @@
+
+b23b0589af6074a817999d91e413a9b592d261e3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/callsites","integrity":null,"time":1769928631359,"size":"0","metadata":{"time":1769928631359,"url":"http://registry.npmjs.org/callsites","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:31 GMT","location":"https://registry.npmjs.org/callsites","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

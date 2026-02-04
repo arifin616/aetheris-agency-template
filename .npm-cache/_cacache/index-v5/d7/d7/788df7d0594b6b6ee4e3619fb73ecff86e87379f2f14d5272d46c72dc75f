@@ -1,0 +1,2 @@
+
+50ea67aea93f99b285e7ca3206ffd8ed9bfd1b19	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/has-symbols","integrity":null,"time":1769928627006,"size":"0","metadata":{"time":1769928627005,"url":"http://registry.npmjs.org/has-symbols","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:27 GMT","location":"https://registry.npmjs.org/has-symbols","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

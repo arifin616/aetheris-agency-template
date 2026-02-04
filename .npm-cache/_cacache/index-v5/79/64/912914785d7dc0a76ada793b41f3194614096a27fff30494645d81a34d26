@@ -1,0 +1,2 @@
+
+d01834b8621cdcecbed25d06e4f51c4e99d2623d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/signal-exit","integrity":null,"time":1769928631582,"size":"0","metadata":{"time":1769928631582,"url":"http://registry.npmjs.org/signal-exit","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:31 GMT","location":"https://registry.npmjs.org/signal-exit","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

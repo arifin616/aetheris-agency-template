@@ -1,0 +1,2 @@
+
+cd76ec263c0350e276dbc17ce3399a7e4e3d353a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/prop-types","integrity":null,"time":1769928612542,"size":"0","metadata":{"time":1769928612542,"url":"http://registry.npmjs.org/prop-types","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:12 GMT","location":"https://registry.npmjs.org/prop-types","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

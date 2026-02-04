@@ -1,0 +1,2 @@
+
+ceac35b5a504dc8ebfe98c6bd0ac39835b2fa6fe	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/prettier","integrity":null,"time":1769928584212,"size":"0","metadata":{"time":1769928584212,"url":"http://registry.npmjs.org/prettier","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:44 GMT","location":"https://registry.npmjs.org/prettier","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

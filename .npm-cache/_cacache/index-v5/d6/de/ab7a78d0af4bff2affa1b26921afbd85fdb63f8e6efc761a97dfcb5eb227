@@ -1,0 +1,2 @@
+
+f325c8a8562042e7a9824e8c2703a9ab65607687	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/side-channel-weakmap","integrity":null,"time":1769928631415,"size":"0","metadata":{"time":1769928631415,"url":"http://registry.npmjs.org/side-channel-weakmap","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:31 GMT","location":"https://registry.npmjs.org/side-channel-weakmap","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

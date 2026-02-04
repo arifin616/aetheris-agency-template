@@ -1,0 +1,2 @@
+
+d716ad96f479365b5dc91d4289f0c0d15d5bfc1b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/js-tokens","integrity":null,"time":1769928634244,"size":"0","metadata":{"time":1769928634244,"url":"http://registry.npmjs.org/js-tokens","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:34 GMT","location":"https://registry.npmjs.org/js-tokens","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

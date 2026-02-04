@@ -1,0 +1,2 @@
+
+bfd8feee35c50b2f234e22a60a32e1f7cd7b3613	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/recharts-scale","integrity":null,"time":1769928592626,"size":"0","metadata":{"time":1769928592626,"url":"http://registry.npmjs.org/recharts-scale","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:52 GMT","location":"https://registry.npmjs.org/recharts-scale","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

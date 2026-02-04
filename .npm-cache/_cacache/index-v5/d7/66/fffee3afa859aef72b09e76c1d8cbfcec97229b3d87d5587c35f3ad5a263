@@ -1,0 +1,2 @@
+
+c6176febb28380c5d064f92ecefe1ea08927c223	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/hasown","integrity":null,"time":1769928610274,"size":"0","metadata":{"time":1769928610273,"url":"http://registry.npmjs.org/hasown","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:10 GMT","location":"https://registry.npmjs.org/hasown","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

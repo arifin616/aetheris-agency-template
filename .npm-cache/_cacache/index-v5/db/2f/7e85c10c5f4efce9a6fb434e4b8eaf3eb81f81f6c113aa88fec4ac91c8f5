@@ -1,0 +1,2 @@
+
+5c7e76ffd51bab7139a731f0d255f74e3ec08195	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/acorn","integrity":null,"time":1769928602099,"size":"0","metadata":{"time":1769928602099,"url":"http://registry.npmjs.org/acorn","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:02 GMT","location":"https://registry.npmjs.org/acorn","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

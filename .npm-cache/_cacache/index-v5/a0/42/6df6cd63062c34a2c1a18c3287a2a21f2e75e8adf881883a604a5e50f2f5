@@ -1,0 +1,2 @@
+
+7e95b7102e37cf76c0f61d6e2f0d4d38e3123e95	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-shared-array-buffer","integrity":null,"time":1769928627455,"size":"0","metadata":{"time":1769928627455,"url":"http://registry.npmjs.org/is-shared-array-buffer","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:27 GMT","location":"https://registry.npmjs.org/is-shared-array-buffer","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

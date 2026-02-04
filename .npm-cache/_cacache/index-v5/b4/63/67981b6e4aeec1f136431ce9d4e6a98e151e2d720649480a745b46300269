@@ -1,0 +1,2 @@
+
+cf10c74dc61d2cc04084702f87445384aea74816	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/locate-path","integrity":null,"time":1769928602289,"size":"0","metadata":{"time":1769928602289,"url":"http://registry.npmjs.org/locate-path","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:02 GMT","location":"https://registry.npmjs.org/locate-path","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

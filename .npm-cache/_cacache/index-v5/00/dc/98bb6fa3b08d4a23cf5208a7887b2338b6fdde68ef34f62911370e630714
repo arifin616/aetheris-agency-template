@@ -1,0 +1,2 @@
+
+5bc1a27305a27afa69112e2317f5ea68a6ce292e	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/globals","integrity":null,"time":1769928601424,"size":"0","metadata":{"time":1769928601424,"url":"http://registry.npmjs.org/globals","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:01 GMT","location":"https://registry.npmjs.org/globals","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

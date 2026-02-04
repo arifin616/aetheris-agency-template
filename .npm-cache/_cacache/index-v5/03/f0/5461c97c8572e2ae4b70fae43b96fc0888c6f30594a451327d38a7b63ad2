@@ -1,0 +1,2 @@
+
+cf7a16ace794a2fd2a530d4f38a7960c493f1fb0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-boolean-object","integrity":null,"time":1769928637333,"size":"0","metadata":{"time":1769928637333,"url":"http://registry.npmjs.org/is-boolean-object","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:37 GMT","location":"https://registry.npmjs.org/is-boolean-object","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

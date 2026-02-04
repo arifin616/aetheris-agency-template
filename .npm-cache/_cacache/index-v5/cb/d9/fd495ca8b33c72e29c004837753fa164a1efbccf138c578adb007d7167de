@@ -1,0 +1,2 @@
+
+92935b72c1883f14681d9a967a47cafa741de3b0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/flat-cache","integrity":null,"time":1769928602264,"size":"0","metadata":{"time":1769928602264,"url":"http://registry.npmjs.org/flat-cache","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:02 GMT","location":"https://registry.npmjs.org/flat-cache","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

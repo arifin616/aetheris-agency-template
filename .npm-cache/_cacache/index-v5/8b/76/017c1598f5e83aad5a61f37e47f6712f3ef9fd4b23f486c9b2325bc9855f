@@ -1,0 +1,2 @@
+
+47af5abfcc954d70c2c5ebb31b9c2df194872ba9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-finalizationregistry","integrity":null,"time":1769928637186,"size":"0","metadata":{"time":1769928637186,"url":"http://registry.npmjs.org/is-finalizationregistry","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:37 GMT","location":"https://registry.npmjs.org/is-finalizationregistry","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

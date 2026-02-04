@@ -1,0 +1,2 @@
+
+de7fb51398b13d94d2f51dbf5822af5f426985fd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@typescript-eslint%2fparser","integrity":null,"time":1769928589113,"size":"0","metadata":{"time":1769928589113,"url":"http://registry.npmjs.org/@typescript-eslint%2fparser","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:49 GMT","location":"https://registry.npmjs.org/@typescript-eslint%2Fparser","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

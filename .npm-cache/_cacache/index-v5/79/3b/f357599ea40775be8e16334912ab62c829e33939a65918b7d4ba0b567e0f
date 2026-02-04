@@ -1,0 +1,2 @@
+
+09f1294d4c8eaaffe1d694444879f15588738db3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@humanwhocodes%2fmodule-importer","integrity":null,"time":1769928588232,"size":"0","metadata":{"time":1769928588232,"url":"http://registry.npmjs.org/@humanwhocodes%2fmodule-importer","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:48 GMT","location":"https://registry.npmjs.org/@humanwhocodes%2Fmodule-importer","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

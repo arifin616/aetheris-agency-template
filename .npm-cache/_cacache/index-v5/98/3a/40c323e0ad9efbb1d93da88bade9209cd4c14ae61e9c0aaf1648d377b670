@@ -1,0 +1,2 @@
+
+cd16c923c1ba58a2c3ba90be87e9b69e01dafc41	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/unbox-primitive","integrity":null,"time":1769928628516,"size":"0","metadata":{"time":1769928628516,"url":"http://registry.npmjs.org/unbox-primitive","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:28 GMT","location":"https://registry.npmjs.org/unbox-primitive","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

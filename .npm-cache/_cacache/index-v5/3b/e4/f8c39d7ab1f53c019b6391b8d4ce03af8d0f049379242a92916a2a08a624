@@ -1,0 +1,2 @@
+
+8a73c5dccd75f87767a52b0d0aa998bee2a8f996	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/which-builtin-type","integrity":null,"time":1769928636797,"size":"0","metadata":{"time":1769928636797,"url":"http://registry.npmjs.org/which-builtin-type","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:37 GMT","location":"https://registry.npmjs.org/which-builtin-type","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

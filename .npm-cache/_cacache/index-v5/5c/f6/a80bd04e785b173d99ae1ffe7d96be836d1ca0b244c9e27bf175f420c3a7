@@ -1,0 +1,2 @@
+
+38c20bbf044d8abebeadec30cde2904f25e722ed	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@eslint-community%2feslint-utils","integrity":null,"time":1769928588223,"size":"0","metadata":{"time":1769928588223,"url":"http://registry.npmjs.org/@eslint-community%2feslint-utils","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:48 GMT","location":"https://registry.npmjs.org/@eslint-community%2Feslint-utils","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

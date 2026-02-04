@@ -1,0 +1,2 @@
+
+2deb934f245ea79947737b83d81db94ea3505822	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/language-tags","integrity":null,"time":1769928611948,"size":"0","metadata":{"time":1769928611947,"url":"http://registry.npmjs.org/language-tags","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:12 GMT","location":"https://registry.npmjs.org/language-tags","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

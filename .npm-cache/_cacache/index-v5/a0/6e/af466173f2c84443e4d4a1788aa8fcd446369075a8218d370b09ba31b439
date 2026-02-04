@@ -1,0 +1,2 @@
+
+4a43f90ab637c3c772584074e17132aa4744e4dc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-symbol","integrity":null,"time":1769928628847,"size":"0","metadata":{"time":1769928628846,"url":"http://registry.npmjs.org/is-symbol","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:29 GMT","location":"https://registry.npmjs.org/is-symbol","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

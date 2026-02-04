@@ -1,0 +1,2 @@
+
+57503fb1c756b971d3cf189168d23dfdd023cfdd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-set","integrity":null,"time":1769928627444,"size":"0","metadata":{"time":1769928627444,"url":"http://registry.npmjs.org/is-set","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:27 GMT","location":"https://registry.npmjs.org/is-set","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

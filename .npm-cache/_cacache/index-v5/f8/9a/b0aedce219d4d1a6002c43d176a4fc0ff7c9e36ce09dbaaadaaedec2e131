@@ -1,0 +1,2 @@
+
+ade00df99b5eba0ae4f4c4e683cb65d9bf7ca541	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@alloc%2fquick-lru","integrity":null,"time":1769928584845,"size":"0","metadata":{"time":1769928584844,"url":"http://registry.npmjs.org/@alloc%2fquick-lru","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:45 GMT","location":"https://registry.npmjs.org/@alloc%2Fquick-lru","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

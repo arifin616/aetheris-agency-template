@@ -1,0 +1,2 @@
+
+13fc4f5e4f8ddb87c9af7c6357752afa8675e6d7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/get-symbol-description","integrity":null,"time":1769928626898,"size":"0","metadata":{"time":1769928626898,"url":"http://registry.npmjs.org/get-symbol-description","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:27 GMT","location":"https://registry.npmjs.org/get-symbol-description","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

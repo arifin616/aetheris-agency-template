@@ -1,0 +1,2 @@
+
+f1c756be3e14f0f4a8fb0a7b7a4fc777275aa859	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/array.prototype.findlastindex","integrity":null,"time":1769928609654,"size":"0","metadata":{"time":1769928609654,"url":"http://registry.npmjs.org/array.prototype.findlastindex","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:10 GMT","location":"https://registry.npmjs.org/array.prototype.findlastindex","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

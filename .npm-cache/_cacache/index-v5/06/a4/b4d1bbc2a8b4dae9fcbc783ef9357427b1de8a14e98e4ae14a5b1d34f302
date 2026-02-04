@@ -1,0 +1,2 @@
+
+a783b61722018455807ca0bd003f0bb970dc3831	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/colorette","integrity":null,"time":1769928631685,"size":"0","metadata":{"time":1769928631685,"url":"http://registry.npmjs.org/colorette","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:32 GMT","location":"https://registry.npmjs.org/colorette","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

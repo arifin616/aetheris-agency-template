@@ -1,0 +1,2 @@
+
+fe1636fbb356b28188458973454940cd7de6ea8f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/environment","integrity":null,"time":1769928632767,"size":"0","metadata":{"time":1769928632767,"url":"http://registry.npmjs.org/environment","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:33 GMT","location":"https://registry.npmjs.org/environment","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

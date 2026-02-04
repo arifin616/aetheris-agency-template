@@ -1,0 +1,2 @@
+
+0ff3d6f9f3b5e5c6dbdf81d95e8f8335557fdc8f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/class-variance-authority","integrity":null,"time":1769928578469,"size":"0","metadata":{"time":1769928578469,"url":"http://registry.npmjs.org/class-variance-authority","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:38 GMT","location":"https://registry.npmjs.org/class-variance-authority","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

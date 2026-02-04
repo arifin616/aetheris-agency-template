@@ -1,0 +1,2 @@
+
+33e360bf1771dc0a2bdfc47f99928d07513ef852	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fast-json-stable-stringify","integrity":null,"time":1769928601817,"size":"0","metadata":{"time":1769928601817,"url":"http://registry.npmjs.org/fast-json-stable-stringify","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:02 GMT","location":"https://registry.npmjs.org/fast-json-stable-stringify","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+87a85fa8392745a2982478f6e86f375af0f4663b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/wrap-ansi","integrity":null,"time":1769928631722,"size":"0","metadata":{"time":1769928631721,"url":"http://registry.npmjs.org/wrap-ansi","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:32 GMT","location":"https://registry.npmjs.org/wrap-ansi","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

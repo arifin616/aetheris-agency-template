@@ -1,0 +1,2 @@
+
+ffc8a98ad391086a91d8e47be94f734fff073ef7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mimic-fn","integrity":null,"time":1769928631859,"size":"0","metadata":{"time":1769928631859,"url":"http://registry.npmjs.org/mimic-fn","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:32 GMT","location":"https://registry.npmjs.org/mimic-fn","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

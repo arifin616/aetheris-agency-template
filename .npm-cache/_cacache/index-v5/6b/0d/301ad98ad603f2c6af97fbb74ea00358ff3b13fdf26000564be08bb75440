@@ -1,0 +1,2 @@
+
+6911d929925065334adc2468fa97c830ade4ca6f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-weakref","integrity":null,"time":1769928627701,"size":"0","metadata":{"time":1769928627701,"url":"http://registry.npmjs.org/is-weakref","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:28 GMT","location":"https://registry.npmjs.org/is-weakref","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

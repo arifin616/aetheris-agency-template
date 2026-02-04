@@ -1,0 +1,2 @@
+
+fe4f8ebd03caf1ba0ca19578874db47cb4655463	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@rushstack%2feslint-patch","integrity":null,"time":1769928588873,"size":"0","metadata":{"time":1769928588873,"url":"http://registry.npmjs.org/@rushstack%2feslint-patch","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:49 GMT","location":"https://registry.npmjs.org/@rushstack%2Feslint-patch","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

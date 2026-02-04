@@ -1,0 +1,2 @@
+
+6d26931df5cd5972700023b429d13b895833482c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/napi-postinstall","integrity":null,"time":1769928617358,"size":"0","metadata":{"time":1769928617358,"url":"http://registry.npmjs.org/napi-postinstall","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:17 GMT","location":"https://registry.npmjs.org/napi-postinstall","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

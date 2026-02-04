@@ -1,0 +1,2 @@
+
+ce58ac8c6d6064c5ce4cb879b47d7f882325ee4d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@formatjs%2fecma402-abstract","integrity":null,"time":1769928639975,"size":"0","metadata":{"time":1769928639975,"url":"http://registry.npmjs.org/@formatjs%2fecma402-abstract","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:40 GMT","location":"https://registry.npmjs.org/@formatjs%2Fecma402-abstract","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

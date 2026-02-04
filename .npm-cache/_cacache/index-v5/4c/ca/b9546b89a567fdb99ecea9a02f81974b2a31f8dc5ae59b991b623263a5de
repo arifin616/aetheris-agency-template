@@ -1,0 +1,2 @@
+
+54ed508ff4ea140428b644f0bf9bb042a38dcb9f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/possible-typed-array-names","integrity":null,"time":1769928628808,"size":"0","metadata":{"time":1769928628808,"url":"http://registry.npmjs.org/possible-typed-array-names","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:50:29 GMT","location":"https://registry.npmjs.org/possible-typed-array-names","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

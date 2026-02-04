@@ -1,0 +1,2 @@
+
+943f0316de9d5d95dbc60a30936d46407ff0c19d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/eslint-import-resolver-node","integrity":null,"time":1769928590792,"size":"0","metadata":{"time":1769928590792,"url":"http://registry.npmjs.org/eslint-import-resolver-node","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:50 GMT","location":"https://registry.npmjs.org/eslint-import-resolver-node","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

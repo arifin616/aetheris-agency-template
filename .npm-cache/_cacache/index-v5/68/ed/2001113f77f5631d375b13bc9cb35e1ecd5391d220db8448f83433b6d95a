@@ -1,0 +1,2 @@
+
+9ac66e99ef0432e601b8e4ef3631e79f7f328f24	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/motion-dom","integrity":null,"time":1769928591121,"size":"0","metadata":{"time":1769928591121,"url":"http://registry.npmjs.org/motion-dom","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 01 Feb 2026 06:49:51 GMT","location":"https://registry.npmjs.org/motion-dom","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
