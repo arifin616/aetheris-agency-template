@@ -1,20 +1,24 @@
-import { notFound } from "next/navigation"
-import { ArrowLeft, Calendar, User, Code, Target, Shield, TrendingUp, Clock, Users } from "lucide-react"
-import Link from "next/link"
+import { Metadata } from 'next';
+import { notFound } from "next/navigation";
+import { ArrowLeft, Calendar, User, Code, Target, Shield, TrendingUp, Clock, Users } from "lucide-react";
+import Link from "next/link";
 
-import { Section } from "@/components/layout-wrapper"
-import { portfolioItems } from "@/data/portfolio"
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { Button } from "@/components/ui/button"
+import { Section } from "@/components/layout-wrapper";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { Button } from "@/components/ui/button";
+import { getPortfolioItemBySlug } from '@/lib/blog';
+import { CaseStudy } from '@/data/portfolio';
 
-export default async function PortfolioCaseStudyPage({ params }: { params: { slug: string } }) {
-  const { slug } = await params;
-  const item = portfolioItems.find((p) => p.slug === slug)
+// 1️⃣ Define params interface for slug
+// Note: In Next.js 15, params are handled as Promises directly in the function signature
 
-  if (!item) {
-    notFound()
-  }
+// 2️⃣ Update Page function props
+export default async function PortfolioCaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
+  const awaitedParams = await params;
+  const item = await getPortfolioItemBySlug(awaitedParams.slug);
+
+  if (!item) return notFound();
 
   return (
     <>
@@ -50,7 +54,7 @@ export default async function PortfolioCaseStudyPage({ params }: { params: { slu
 
               {/* Key Results */}
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 border-y border-border dark:border-white/10 py-8 md:py-12">
-                {item.results.map((res, index) => (
+                {item.results.map((res: { label: string; value: string }, index: number) => (
                   <div key={index} className="text-center">
                     <div className="text-3xl md:text-4xl font-black text-primary mb-2">{res.value}</div>
                     <div className="text-xs font-bold text-muted-foreground uppercase tracking-widest">{res.label}</div>
@@ -83,7 +87,7 @@ export default async function PortfolioCaseStudyPage({ params }: { params: { slu
                       Key Challenges
                     </h2>
                     <ul className="space-y-3">
-                      {item.challenges.map((challenge, index) => (
+                      {item.challenges.map((challenge: string, index: number) => (
                         <li key={index} className="flex items-start gap-3">
                           <div className="flex-shrink-0 w-2 h-2 rounded-full bg-primary mt-2"></div>
                           <span className="text-muted-foreground">{challenge}</span>
@@ -98,7 +102,7 @@ export default async function PortfolioCaseStudyPage({ params }: { params: { slu
                       Our Solutions
                     </h2>
                     <ul className="space-y-3">
-                      {item.solutions.map((solution, index) => (
+                      {item.solutions.map((solution: string, index: number) => (
                         <li key={index} className="flex items-start gap-3">
                           <div className="flex-shrink-0 w-2 h-2 rounded-full bg-primary mt-2"></div>
                           <span className="text-muted-foreground">{solution}</span>
@@ -115,7 +119,7 @@ export default async function PortfolioCaseStudyPage({ params }: { params: { slu
                     Technology Stack
                   </h2>
                   <div className="flex flex-wrap gap-3">
-                    {item.technologies.map((tech, index) => (
+                    {item.technologies.map((tech: string, index: number) => (
                       <div key={index} className="px-4 py-2 rounded-xl bg-card/50 dark:bg-white/5 border border-border dark:border-white/10 backdrop-blur-sm">
                         <span className="font-bold text-primary">{tech}</span>
                       </div>
@@ -143,7 +147,7 @@ export default async function PortfolioCaseStudyPage({ params }: { params: { slu
                     Project Timeline
                   </h3>
                   <div className="space-y-4">
-                    {item.timeline.map((phase, index) => (
+                    {item.timeline.map((phase: { phase: string; duration: string; description: string }, index: number) => (
                       <div key={index} className="relative pl-6 pb-4 last:pb-0">
                         <div className="absolute left-0 top-1 w-2 h-2 rounded-full bg-primary"></div>
                         <div className="text-sm font-bold text-primary uppercase tracking-widest">{phase.phase}</div>
@@ -161,7 +165,7 @@ export default async function PortfolioCaseStudyPage({ params }: { params: { slu
                     Team Composition
                   </h3>
                   <div className="space-y-3">
-                    {item.team.map((member, index) => (
+                    {item.team.map((member: { role: string; members: number }, index: number) => (
                       <div key={index} className="flex justify-between items-center py-2 border-b border-border/50 dark:border-white/5 last:border-0">
                         <span className="text-sm font-medium">{member.role}</span>
                         <span className="text-sm text-primary font-bold">{member.members} {member.members === 1 ? 'Member' : 'Members'}</span>
@@ -188,4 +192,16 @@ export default async function PortfolioCaseStudyPage({ params }: { params: { slu
       <Footer />
     </>
   )
+}
+
+// 3️⃣ Optional: generate metadata for SEO
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const awaitedParams = await params;
+  const item = await getPortfolioItemBySlug(awaitedParams.slug);
+  if (!item) return { title: 'Portfolio Item Not Found' };
+
+  return {
+    title: item.title,
+    description: item.description,
+  };
 }

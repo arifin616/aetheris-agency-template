@@ -1,19 +1,20 @@
-import { notFound } from "next/navigation"
-import { ArrowLeft, Calendar, User, Tag } from "lucide-react"
-import Link from "next/link"
+import { Metadata } from 'next';
+import { notFound } from "next/navigation";
+import { ArrowLeft, Calendar, User } from "lucide-react";
+import Link from "next/link";
 
-import { Section } from "@/components/layout-wrapper"
-import { blogPosts } from "@/data/blog"
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
+import { Section } from "@/components/layout-wrapper";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { getBlogPostBySlug } from '@/lib/blog';
 
-export default async function BlogPostPage({ params }: { params: { slug: string } }) {
-  const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug)
+// 1️⃣ Define params interface for slug
+// 2️⃣ Update Page function props
+export default async function BlogPage({ params }: { params: Promise<{ slug: string }> }) {
+  const awaitedParams = await params;
+  const post = await getBlogPostBySlug(awaitedParams.slug);
 
-  if (!post) {
-    notFound()
-  }
+  if (!post) return notFound();
 
   return (
     <>
@@ -56,7 +57,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-indigo-500/5 z-0" />
               <div className="absolute inset-0 flex items-center justify-center z-10 opacity-10 group-hover:opacity-20 transition-opacity">
                 <div className="text-8xl text-primary">
-                  {post.title.split(' ').map((word, idx) => word[0]).join('').substring(0, 3)}
+                  {post.title.split(' ').map((word: string, idx: number) => word[0]).join('').substring(0, 3)}
                 </div>
               </div>
             </div>
@@ -65,11 +66,10 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
               <p className="text-xl text-foreground font-medium mb-12 leading-relaxed">
                 {post.excerpt}
               </p>
-              <div className="text-lg text-muted-foreground leading-relaxed space-y-8">
-                <p>{post.content}</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
+              <div 
+                className="text-lg text-muted-foreground leading-relaxed space-y-8"
+                dangerouslySetInnerHTML={{ __html: post.content }} 
+              />
             </div>
           </div>
         </Section>
@@ -77,4 +77,16 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
       <Footer />
     </>
   )
+}
+
+// 3️⃣ Optional: generate metadata for SEO
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const awaitedParams = await params;
+  const post = await getBlogPostBySlug(awaitedParams.slug);
+  if (!post) return { title: 'Blog Not Found' };
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+  };
 }

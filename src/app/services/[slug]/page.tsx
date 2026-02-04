@@ -1,21 +1,23 @@
-import { notFound } from "next/navigation"
-import { motion } from "framer-motion"
-import { Check, ArrowLeft } from "lucide-react"
-import Link from "next/link"
+import { Metadata } from 'next';
+import { notFound } from "next/navigation";
+import { motion } from "framer-motion";
+import { Check, ArrowLeft } from "lucide-react";
+import Link from "next/link";
 
-import { Button } from "@/components/ui/button"
-import { Section } from "@/components/layout-wrapper"
-import { services } from "@/data/services"
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
+import { Button } from "@/components/ui/button";
+import { Section } from "@/components/layout-wrapper";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { getServiceBySlug } from '@/lib/blog';
+import { Service } from '@/data/services';
 
-export default async function ServicePage({ params }: { params: { slug: string } }) {
-  const { slug } = await params;
-  const service = services.find((s) => s.slug === slug)
+// 1️⃣ Define params interface for slug
+// 2️⃣ Update Page function props
+export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
+  const awaitedParams = await params;
+  const service = await getServiceBySlug(awaitedParams.slug);
 
-  if (!service) {
-    notFound()
-  }
+  if (!service) return notFound();
 
   return (
     <>
@@ -46,7 +48,7 @@ export default async function ServicePage({ params }: { params: { slug: string }
               <div className="bg-card/50 dark:bg-white/5 border border-border dark:border-white/10 rounded-[3rem] p-12 backdrop-blur-xl shadow-xl shadow-primary/5">
                 <h3 className="text-2xl font-bold mb-8 uppercase tracking-tight">Key Features</h3>
                 <ul className="space-y-6">
-                  {service.features.map((feature) => (
+                  {service.features.map((feature: string) => (
                     <li key={feature} className="flex items-center text-lg font-medium">
                       <div className="mr-4 flex size-8 items-center justify-center rounded-xl bg-primary/10 text-primary">
                         <Check className="size-5 stroke-[3]" />
@@ -63,4 +65,16 @@ export default async function ServicePage({ params }: { params: { slug: string }
       <Footer />
     </>
   )
+}
+
+// 3️⃣ Optional: generate metadata for SEO
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const awaitedParams = await params;
+  const service = await getServiceBySlug(awaitedParams.slug);
+  if (!service) return { title: 'Service Not Found' };
+
+  return {
+    title: service.title,
+    description: service.description,
+  };
 }
