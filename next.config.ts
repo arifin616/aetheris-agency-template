@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
     // Enable faster incremental bundling
     webpackBuildWorker: true,
   },
+  // Handle SWC version issues on Vercel
+  swcMinify: true,
   // Optimize dev server indicators
   devIndicators: {
     position: 'bottom-right',

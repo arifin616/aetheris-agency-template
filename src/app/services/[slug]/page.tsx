@@ -11,14 +11,10 @@ import { Footer } from "@/components/footer";
 import { getServiceBySlug } from '@/lib/blog';
 import { Service } from '@/data/services';
 
-// 1️⃣ Define params interface for slug
-interface PageParams {
-  slug: string;
-}
-
 // 2️⃣ Update Page function props
-export default async function ServicePage({ params }: { params: PageParams }) {
-  const service = await getServiceBySlug(params.slug);
+export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const service = await getServiceBySlug(slug);
 
   if (!service) return notFound();
 
@@ -71,8 +67,9 @@ export default async function ServicePage({ params }: { params: PageParams }) {
 }
 
 // 3️⃣ Optional: generate metadata for SEO
-export async function generateMetadata({ params }: { params: PageParams }): Promise<Metadata> {
-  const service = await getServiceBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const service = await getServiceBySlug(slug);
   if (!service) return { title: 'Service Not Found' };
 
   return {

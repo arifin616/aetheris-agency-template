@@ -10,14 +10,10 @@ import { Button } from "@/components/ui/button";
 import { getPortfolioItemBySlug } from '@/lib/blog';
 import { CaseStudy } from '@/data/portfolio';
 
-// 1️⃣ Define params interface for slug
-interface PageParams {
-  slug: string;
-}
-
 // 2️⃣ Update Page function props
-export default async function PortfolioCaseStudyPage({ params }: { params: PageParams }) {
-  const item = await getPortfolioItemBySlug(params.slug);
+export default async function PortfolioCaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const item = await getPortfolioItemBySlug(slug);
 
   if (!item) return notFound();
 
@@ -196,8 +192,9 @@ export default async function PortfolioCaseStudyPage({ params }: { params: PageP
 }
 
 // 3️⃣ Optional: generate metadata for SEO
-export async function generateMetadata({ params }: { params: PageParams }): Promise<Metadata> {
-  const item = await getPortfolioItemBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const item = await getPortfolioItemBySlug(slug);
   if (!item) return { title: 'Portfolio Item Not Found' };
 
   return {
