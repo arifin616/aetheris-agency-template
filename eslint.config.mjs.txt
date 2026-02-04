@@ -1,0 +1,27 @@
+// eslint.config.mjs
+import { defineConfig, globalIgnores } from "eslint/config";
+
+// Next.js 15 compatible imports
+import nextVitals from "eslint-config-next/core-web-vitals.js";
+import nextTs from "eslint-config-next/typescript.js";
+
+export default defineConfig([
+  ...nextVitals,
+  ...nextTs,
+
+  // Global ignores
+  globalIgnores([
+    ".next/**",
+    "out/**",
+    "build/**",
+    "node_modules/**",
+    "next-env.d.ts",
+    ".vercel/**",
+  ]),
+
+  // You can add custom rules here
+  rules: {
+    // example: allow console for dev
+    "no-console": "warn",
+  },
+]);
