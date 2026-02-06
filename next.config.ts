@@ -1,10 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    // Enable faster incremental bundling
-    webpackBuildWorker: true,
-  },
   // Handle SWC version issues on Vercel
   swcMinify: true,
   // Optimize dev server indicators

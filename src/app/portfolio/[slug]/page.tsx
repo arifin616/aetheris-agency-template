@@ -11,8 +11,8 @@ import { getPortfolioItemBySlug } from '@/lib/blog';
 import { CaseStudy } from '@/data/portfolio';
 
 // 2️⃣ Update Page function props
-export default async function PortfolioCaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default async function PortfolioCaseStudyPage({ params }: { params: { slug: string } }) {
+  const { slug } = params;
   const item = await getPortfolioItemBySlug(slug);
 
   if (!item) return notFound();
@@ -192,8 +192,8 @@ export default async function PortfolioCaseStudyPage({ params }: { params: Promi
 }
 
 // 3️⃣ Optional: generate metadata for SEO
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const { slug } = params;
   const item = await getPortfolioItemBySlug(slug);
   if (!item) return { title: 'Portfolio Item Not Found' };
 

@@ -12,8 +12,8 @@ import { getServiceBySlug } from '@/lib/blog';
 import { Service } from '@/data/services';
 
 // 2️⃣ Update Page function props
-export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default async function ServicePage({ params }: { params: { slug: string } }) {
+  const { slug } = params;
   const service = await getServiceBySlug(slug);
 
   if (!service) return notFound();
@@ -67,8 +67,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 }
 
 // 3️⃣ Optional: generate metadata for SEO
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const { slug } = params;
   const service = await getServiceBySlug(slug);
   if (!service) return { title: 'Service Not Found' };
 
