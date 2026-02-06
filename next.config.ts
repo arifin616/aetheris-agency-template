@@ -1,8 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Handle SWC version issues on Vercel
-  swcMinify: true,
   // Optimize dev server indicators
   devIndicators: {
     position: 'bottom-right',
